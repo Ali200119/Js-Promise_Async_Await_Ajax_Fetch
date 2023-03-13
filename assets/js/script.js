@@ -128,6 +128,18 @@
 // getPostById(4);
 
 
-$(function() {
-    
-})
+// $(function () {
+//     $("button").click(function () {
+//         $.ajax({
+//             url: "https://jsonplaceholder.typicode.com/posts", success: function (datas) {
+//                 let str = "";
+
+//                 for (const data of datas) {
+//                     str += `<li data-id="${data.id}" class="list-group-item"><b>${data.id}-${data.body}-${data.userId}</b></li>`
+//                 }
+
+//                 $("ul").html(str);
+//             }
+//         });
+//     });
+// })
