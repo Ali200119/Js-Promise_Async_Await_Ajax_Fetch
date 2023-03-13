@@ -44,7 +44,7 @@
 
 // console.log(users);
 
-let ul = document.querySelector("ul");
+// let ul = document.querySelector("ul");
 
 // function getUsers(datas) {
 //     setTimeout(() => {
@@ -119,7 +119,15 @@ let ul = document.querySelector("ul");
 //     });
 // }, 1000);
 
-function getPostById(id) {
+// async function getPostById(id) {
+//     let data = await fetch(`https://jsonplaceholder.typicode.com/posts/${id}`);
+//     let result = await data.json();
+//     alert(`${result.id} ${result.body}`);
+// }
+
+// getPostById(4);
+
+
+$(function() {
     
-    let datas
-}
+})
